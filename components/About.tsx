@@ -51,6 +51,7 @@ export default function About() {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Download CV"
+                  download
                 >
                   <FileText className="h-6 w-6 text-red-600" />
                 </a>
