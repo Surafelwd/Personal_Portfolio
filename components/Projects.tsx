@@ -193,7 +193,7 @@ export default function Projects() {
 									aria-label={project.private ? `Request ${project.title} details` : project.link?.startsWith("http") ? `View ${project.title} on GitHub` : `Discuss ${project.title}`}
 									className="mt-auto inline-flex items-center justify-center gap-2 rounded-lg bg-[#071a32] px-4 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#12365f]"
 								>
-									{project.private ? "Request project details" : project.linkLabel ?? (project.link?.startsWith("http") ? "View on GitHub" : "Discuss project")}
+									{project.private ? "Request project details" : project.link?.startsWith("http") ? "View on GitHub" : "Discuss project"}
 									<ArrowUpRight className="h-4 w-4" aria-hidden="true" />
 								</a>
 							</div>
