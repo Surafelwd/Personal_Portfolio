@@ -5,7 +5,18 @@ import { motion } from "framer-motion";
 import { ArrowUpRight, Filter, Mail, X } from "lucide-react";
 import { useState } from "react";
 
-const projects = [
+type Project = {
+	title: string;
+	description: string;
+	image: string;
+	link?: string;
+	linkLabel?: string;
+	category: string | string[];
+	tags: string[];
+	private?: boolean;
+};
+
+const projects: Project[] = [
 	{
 		title: "Power-Efficient Wearable ECG Patch for Remote Cardiac Monitoring",
 		description:
