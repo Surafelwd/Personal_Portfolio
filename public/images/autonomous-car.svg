@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" width="1000" height="540" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="1000" height="540" rx="18" fill="#f8fafc"/>
+  <text x="500" y="46" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">Autonomous Car</text>
+  <text x="500" y="72" text-anchor="middle" font-size="14" fill="#64748b">Raspberry Pi obstacle avoidance and lane detection</text>
+
+  <path d="M70 420 H930" stroke="#cbd5e1" stroke-width="4" stroke-dasharray="16 14"/>
+  <path d="M350 420 L430 90 M650 420 L570 90" stroke="#e2e8f0" stroke-width="3"/>
+
+  <rect x="75" y="180" width="210" height="100" rx="14" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="180" y="218" text-anchor="middle" font-size="18" font-weight="700" fill="#1e3a8a">Ultrasonic Sensor</text>
+  <text x="180" y="245" text-anchor="middle" font-size="14" fill="#1d4ed8">Distance measurement</text>
+  <text x="180" y="266" text-anchor="middle" font-size="13" fill="#1d4ed8">Obstacle stop control</text>
+
+  <rect x="395" y="150" width="210" height="160" rx="16" fill="#ede9fe" stroke="#7c3aed" stroke-width="2.5"/>
+  <text x="500" y="190" text-anchor="middle" font-size="21" font-weight="700" fill="#4c1d95">Raspberry Pi</text>
+  <line x1="420" y1="205" x2="580" y2="205" stroke="#c4b5fd"/>
+  <text x="500" y="235" text-anchor="middle" font-size="14" fill="#5b21b6">Python control logic</text>
+  <text x="500" y="260" text-anchor="middle" font-size="14" fill="#5b21b6">OpenCV lane detection</text>
+  <text x="500" y="285" text-anchor="middle" font-size="14" fill="#5b21b6">Steering decisions</text>
+
+  <rect x="715" y="180" width="210" height="100" rx="14" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="820" y="218" text-anchor="middle" font-size="18" font-weight="700" fill="#166534">Camera</text>
+  <text x="820" y="245" text-anchor="middle" font-size="14" fill="#15803d">Video input</text>
+  <text x="820" y="266" text-anchor="middle" font-size="13" fill="#15803d">Lane markings</text>
+
+  <rect x="320" y="365" width="360" height="100" rx="40" fill="#334155" stroke="#0f172a" stroke-width="3"/>
+  <circle cx="390" cy="465" r="36" fill="#1e293b" stroke="#94a3b8" stroke-width="5"/>
+  <circle cx="610" cy="465" r="36" fill="#1e293b" stroke="#94a3b8" stroke-width="5"/>
+  <rect x="405" y="390" width="190" height="38" rx="12" fill="#64748b"/>
+  <text x="500" y="414" text-anchor="middle" font-size="15" font-weight="700" fill="#f8fafc">MOTOR CONTROL</text>
+
+  <g stroke="#475569" stroke-width="2.5" fill="none">
+    <path d="M285 230 H393"/>
+    <path d="M715 230 H607"/>
+    <path d="M500 310 V363"/>
+  </g>
+  <g fill="#475569">
+    <path d="M393 224 L405 230 L393 236 Z"/>
+    <path d="M607 224 L595 230 L607 236 Z"/>
+    <path d="M494 363 L500 375 L506 363 Z"/>
+  </g>
+</svg>

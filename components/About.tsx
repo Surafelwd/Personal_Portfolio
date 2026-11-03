@@ -47,11 +47,10 @@ export default function About() {
               >
                 {/* CV PDF Icon */}
                 <a
-                  href="/cv.pdf"
+                  href="/Surafel%20WondmagegnCV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  title="Download CV"
-                  download
+                  title="View CV"
                 >
                   <FileText className="h-6 w-6 text-red-600" />
                 </a>
@@ -79,37 +78,55 @@ export default function About() {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="mb-6"
               >
-                 I love bringing ideas to life, transforming them into reliable hardware and 
-                 software that solve real-world problems. My career, rooted 
-                 in Addis Ababa, Ethiopia, has been a journey of blending 
-                 creativity with technical precision to build innovative devices, 
-                 from smart IoT systems to robotics projects. I thrive on turning 
-                 complex challenges into elegant solutions and am always motivated 
-                 by the impact my work can have on people’s lives.</motion.p>
+                I’m a PCB designer and embedded systems engineer based in Addis Ababa,
+                Ethiopia, with a BSc in Electrical and Computer Engineering from Addis
+                Ababa University. I love bringing ideas to life, turning them into
+                reliable hardware and firmware that solve real-world problems, from
+                low-power IoT systems to wearable devices and robotics.
+              </motion.p>
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                className="mb-6"
+              >
+                <strong>PCB design is at the core of my work.</strong> I’ve designed
+                boards professionally, taking them from schematic capture through
+                layout to validated, manufacturable hardware. I work in Altium
+                Designer, KiCad, and EasyEDA, and because I also write embedded
+                firmware, I design with both the hardware and the code in mind. That
+                means fewer surprises when the first boards arrive.
+              </motion.p>
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                className="mb-6"
+              >
+                I enjoy sharing what I learn. I’ve mentored new engineers, helped
+                teach Arduino and data analysis courses, and I’m always looking for
+                chances to collaborate on open-source projects and experimental
+                hardware. I also tinker with AI as a hobbyist and keep up with new
+                technologies.
+              </motion.p>
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                className="mb-6"
+              >
+                Away from the workbench, I recharge with books, movies, and long
+                quiet walks. I read both technical and spiritual literature, and I
+                enjoy tech meetups where I can swap ideas with other builders.
+              </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className="mb-8"
               >
-                Beyond the workbench, 
-                I'm constantly exploring new technologies, staying updated
-                 with the latest advancements, and engaging with AI as a 
-                 hobbyist. I also enjoy mentoring fellow engineers, 
-                 collaborating on open-source projects, and experimenting
-                  with inventive hardware designs.</motion.p>
-                  <motion.p
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.3 }}
-                className="mb-8"
-              >
-                To recharge, you'll find me immersed in a good book, 
-                watching a captivating movie, or taking long, quiet walks 
-                to reflect and gather inspiration. I also enjoy diving into 
-                spiritual and technical literature, attending tech meetups,
-                 and connecting with like-minded innovators to exchange
-                  ideas and push the boundaries of what’s possible.
+                I’m open to remote PCB design and embedded engineering projects.
+                Let’s build something together.
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}

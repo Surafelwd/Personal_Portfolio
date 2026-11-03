@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Github, Mail, Linkedin } from "lucide-react";
 
 const contactInfo = {
-  email: "surafelwondmagegn@gmail.com",
+  email: "surafelwondmagegn0@gmail.com",
   phone: "+251 91 120 2323",
   github: "https://github.com/Surafelwd",
   linkedin: "https://www.linkedin.com/in/surafel-wondmagegn-23a88026a",
