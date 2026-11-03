@@ -1,9 +1,7 @@
-services:
-  - type: web
-    name: personal-portfolio
-    runtime: node
+staticSites:
+  - name: personal-portfolio
     buildCommand: npm ci && npm run build
-    startCommand: npm start
+    staticPublishPath: ./out
     envVars:
       - key: NODE_VERSION
         value: 20
