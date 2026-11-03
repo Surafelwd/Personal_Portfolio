@@ -10,7 +10,6 @@ type Project = {
 	description: string;
 	image: string;
 	link?: string;
-	linkLabel?: string;
 	category: string | string[];
 	tags: string[];
 	private?: boolean;
